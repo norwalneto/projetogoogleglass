@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/media.css"/>
+    <title>Google Glass</title>
+ 
+</head>
+<script language="javascript" src="../projeto-glass-html5/_javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Google Glass</h1>
+    <h2>revolução do Google está chegando</h2>
+    </hgroup>
+
+<img id="icone" src="../projeto-glass-html5/_imagens/multimidia.png">
+
+<nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul>
+        <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/home.png')" onmouseout="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+        <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')" onmouseout="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+        <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/fotos.png')" onmouseout="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+        <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')" onmouseout="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+        <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/contato.png')" onmouseout="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+    </ul>
+</nav>
+
+</header>
+
+<section id="corpo-full">
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+            <hgroup>
+                <h3>Glass > Multimídia</h3>
+                <h1>Sons e Vídeos</h1>
+                <h2>por Norwal Neto</h2>
+                <h3 class="data">Atualizado em 22/Fevereiro/2022</h3>
+            </hgroup>
+        </header>
+
+Áudio e Vídeo
+
+<div id="tv-radio">
+    <audio id="musica" controls="controls">
+        <source src="../_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+        Desculpe, mais não foi possível carregar o áudio.
+    </audio>
+    <video id="filme" controls poster="../projeto-glass-html5/_imagens/video-mini03.jpg">
+        <source src="../_media/getting-started.mp4" type="video/mp4">
+        Desculpe, mais não foi possivel carregar o vídeo.
+    </video>
+</div>
+
+</article>
+</section>
+
+<footer id="rodape">
+    <p>Copyright &copy; 2022 - by Norwal Neto <br/>
+    <a href="https://www.facebook.com/norwal.neto" target="_blank">Facebook</a> | Twitter</p>
+</footer>
+</div>
+</body>
+</html>
